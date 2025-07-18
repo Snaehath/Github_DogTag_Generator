@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&family=Orbitron&family=Roboto+Mono&family=Share+Tech+Mono&display=swap");
+@import "tailwindcss";
+
+@layer utilities {
+  .font-vt323 {
+    font-family: "VT323", monospace;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    font-size: 1.2rem;
+  }
+
+  .font-orbitron {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.05em;
+  }
+
+  .font-roboto-mono {
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .font-share-tech-mono {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 0.9rem;
+  }
+}
