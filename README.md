@@ -1,7 +1,5 @@
 # React + TypeScript + Vite
 
-![DogTag](<img width="1440" height="1038" alt="Image" src="https://github.com/user-attachments/assets/ff9267c8-9ca7-4dfc-b1cc-44d04f4ade1f" />)
-
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
