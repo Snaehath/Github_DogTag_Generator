@@ -1,4 +1,4 @@
-# 🐶 GitHub Dog Tag Generator
+# GitHub Dog Tag Generator
 
 <img src="src/assets/octocat-dog-tag.png" alt="DogTag" width="300"/>
 
