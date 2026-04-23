@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { fetchGitHubUser } from "../api/githubApi";
 import type { ColorScheme, FontStyle, GitHubUser } from "../types";
 import DogTagPreview, { type DogTagPreviewHandle } from "../components/dogTagPreview";

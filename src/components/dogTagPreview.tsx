@@ -1,4 +1,4 @@
-import React, { useRef, useImperativeHandle, forwardRef } from "react";
+import { useRef, useImperativeHandle, forwardRef } from "react";
 import type { ColorScheme, FontStyle, GitHubUser } from "../types";
 import { DoorOpen, Users } from "lucide-react";
 import * as htmlToImage from "html-to-image";

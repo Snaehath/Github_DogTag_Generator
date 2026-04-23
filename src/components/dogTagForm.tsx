@@ -1,4 +1,3 @@
-import React from "react";
 import { COLOR_SCHEMES, FONT_STYLES } from "../constants";
 import type { ColorScheme, FontStyle } from "../types";
 
