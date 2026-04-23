@@ -1,5 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=VT323&family=Orbitron&family=Roboto+Mono&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&family=Orbitron:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@300;400;500;700&family=Share+Tech+Mono&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-slate-300 antialiased selection:bg-white/10 selection:text-white;
+  }
+}
 
 @layer utilities {
   .font-vt323 {
@@ -21,5 +27,39 @@
   .font-share-tech-mono {
     font-family: "Share Tech Mono", monospace;
     font-size: 0.9rem;
+  }
+
+  .font-inter {
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  .font-jetbrains-mono {
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  .glass-morphism {
+    @apply bg-[#0f0f0f] border border-white/5 shadow-[0_20px_50px_rgba(0,0,0,0.5)];
+  }
+
+  .neon-border {
+    @apply border-white/10 focus-within:border-white/20 transition-colors;
+  }
+
+  .animated-bg {
+    background: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #050505 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .soft-glow {
+    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 70%);
   }
 }
